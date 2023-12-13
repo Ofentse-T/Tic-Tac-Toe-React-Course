@@ -1,5 +1,11 @@
+import Router from "./Router";
+import { BrowserRouter, Router, Routes } from "react-router-dom";
 function App() {
-  return <div>Tic Tac Toe</div>;
+  return (
+    <div>
+      <Router />
+    </div>
+  );
 }
 
 export default App;
